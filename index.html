@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <h1 id="title">Survey From</h1>
 <p id="description">This is the description</p>
 <form id="survey-form" class="" action="index.html" method="post">
@@ -40,5 +50,21 @@
     <label for="louie">Louie</label>
   </div>
 
-  <input type="submit" />
+  <p>Select your Vehicle</p>
+  <div>
+      <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+      <input type="checkbox" name="vehicle2" value="Car"> I have a Car<br>
+      <input type="checkbox" name="vehicle3" value="Bus"> I have a Bus<br>
+    </div>
+
+    <p> Additional comments</p>
+    <div>
+      <textarea name="additionalComments" rows="8" cols="80"></textarea>
+    </div>
+    
+  <input id="submit" type="submit" />
 </form>
+ 
+    <script  src="js/index.js"></script>
+  </body>
+</html>
